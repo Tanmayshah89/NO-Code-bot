@@ -1,0 +1,61 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #000000;
+    font-size: 14px;
+    line-height: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+header.main {
+    background: linear-gradient(135deg, #0c40c3, #2ecc71);
+    width: 90%;
+    height: 100%;  
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 19px rgba(56, 12, 216, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+header.main:hover{
+    background: linear-gradient(135deg, #61430f, #0c40c3);
+    color: aliceblue;
+    
+}
+.image img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+ 
+}
+
+.instruct h1{
+    font-size: 70px;
+}
+.instruct h3{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+
+}
+.instruct h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
